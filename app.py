@@ -11,8 +11,8 @@ if os.path.exists('./dataset.csv'):
     df = pd.read_csv('dataset.csv', index_col=None)
 
 with st.sidebar: 
-    st.image("https://image.freepik.com/free-vector/artificial-intelligence-concept_23-2148623474.jpg")
-    st.title("Your ML Companion")
+    st.image("https://img.pikbest.com/wp/202347/ai-brain-blurred-wallpaper-with-3d-rendered-blue-polygons-a-hologram-of-the-representing-and-machine-learning-concepts_9760017.jpg!w700wp")
+    st.title("AutoMachina - Your ML companion")
     choice = st.radio("Navigation", ["Upload", "Profiling", "Regression", "Classification", "Clustering", "Download"])
     st.info("This project application helps you build and explore your data.")
 
