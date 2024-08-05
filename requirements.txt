@@ -2,3 +2,4 @@ streamlit
 pycaret
 pandas
 plotly
+scikit-learn
